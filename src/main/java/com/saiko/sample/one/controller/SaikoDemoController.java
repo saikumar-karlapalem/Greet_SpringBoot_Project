@@ -12,7 +12,7 @@ public class SaikoDemoController {
 	@GetMapping("/{message}")
 	public String greet(@PathVariable("message") String message)
 	{
-		return "hello"+message;
+		return "hello "+ "welcome to "+message;
 	}
 
 }
